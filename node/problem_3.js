@@ -8,7 +8,7 @@ exports.problem3 = function () {
   for (var i = 1; i <= limit - 2; i++) {
     fibList.push(fibList[i] + fibList[i - 1]);
   }
-  console.log('First ', fibList.length, ' Fibonacci numbers are: ', fibList.join(' ,'));
+  console.log('First ', limit, ' Fibonacci numbers are: ', fibList.join(' ,'));
 
 
   console.log('Recursive solution...');
@@ -34,5 +34,5 @@ exports.problem3 = function () {
   fibonacci(limit, fibList);
   fibList.shift();
 
-  console.log('First ', fibList.length, ' Fibonacci numbers are: ', fibList.join(' ,'));
+  console.log('First ', limit, ' Fibonacci numbers are: ', fibList.join(' ,'));
 };
