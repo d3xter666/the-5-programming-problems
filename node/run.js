@@ -3,8 +3,8 @@
 var problems = [
   require('./problem_1'),
   require('./problem_2'),
-  require('./problem_3')
-  //require('./problem_4'),
+  require('./problem_3'),
+  require('./problem_4')
   //require('./problem_5')
 ];
 
